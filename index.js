@@ -1,6 +1,6 @@
 const tbody = document.getElementById('tbody');
 async function getData(){
-    let data = await fetch("https://finstreet-assignment/api",{
+    let data = await fetch(" https://finstreet-assignment.herokuapp.com/api",{
         method:"GET",
         headers:{
             "Content-type":"application/json"
