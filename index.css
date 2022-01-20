@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    font-family: Oswald,sans-serif;
+    background-color: #191d28;
+}
+
+.logo{
+    width: 50%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header{
+    margin-top: 2%;
+    margin-left:2%;
+    margin-right: 2%;
+}
+
+.first,.second,.third{
+    width: 100%;
+}
+.second,.third{
+    text-align: center;
+    margin:auto;
+}
+
+
+.powered{
+    color: #55565B;
+    font-size: medium;
+}
+.dropdowns{
+    display: flex;
+    justify-content: center;
+}
+.dropdown{
+    margin-right:2%;
+}
+
+.finstreet{
+    color:rgb(61, 198, 193);
+}
+
+.dropdownBtn{
+    border-radius: 10px;
+    background-color: #2e3241;
+    color: white;
+}
+
+.dropdownBtn:hover{
+    color: white;
+}
+
+.headerRight{
+    display: flex;
+    justify-content: center;
+}
+
+.circle{
+    border: 1px solid white;
+    border-radius: 200%;
+    width:30px;
+    height: 30px;
+}
+
+.btnTelegram{
+    font-size: 14px;
+    padding: 5px 10px !important;
+    border-radius: 10px;
+    background-color: #3DC6C1;
+    color: white;
+}
+
+.theme{
+    font-size: 26px;
+    margin-left:3%;
+}
+
+
+.buy{
+    display: block;
+}
+
+
+.statement{
+    text-align: center;
+    color: #55565B;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 2%;
+}
+
+.fiveDivs{
+    display: flex;
+    flex-direction: row;
+    margin-left:2%;
+    margin-right: 2%;
+    justify-content: space-around;
+   
+}
+.priceVal{
+    font-size: 80px;
+    font-weight: 400;
+    color: white;
+}
+
+.val{
+    color:#3DC6C1;
+    font-size: 40px;
+    font-weight: 400;
+}
+.sub{
+    text-align: center;
+    color: #55565B;
+    font-size: 20px;
+}
+.pad{
+    margin-top: 2%;
+}
+thead{
+    font-size: 24px;
+    color: #55565B;
+}
+
+.tableSection{
+    margin-top: 5%;
+    margin-left:2%;
+    margin-right: 2%;
+}
+td{
+    color: white;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    text-align: center;
+}
+
+.tableRow{
+    background-color:#2E3241;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 801px) {
+    .logo{
+        width: 80%;
+    }
+     .dropdowns{
+         display: block;
+     }
+     .dropdown{
+         display: inline-block;
+         margin-bottom: 2%;
+     }
+     .dropdownBtn{
+        margin:auto;
+     }
+     .headerRight{
+         display:block;
+     }
+     .right{
+         display: inline-block;
+         margin-bottom: 2%;
+     }
+     .switch{
+         margin-left:40%;
+     }
+     .val{
+         font-size: 20px;
+     }
+     .sub{
+         font-size: 10px;
+     }
+     .statement{
+         font-size: 20px;
+     }
+     .priceVal{
+         font-size: 35px;
+         text-align: center;
+     }
+     .tableHead{
+         font-size: 15px;
+     }
+  }
+
+
+  @media only screen and (max-width:480px){
+      .logo{
+          width: 100%;
+      }
+      .third{
+          margin-top:3%;
+      }
+      .first{
+          text-align: center;
+          margin-top: 5%;
+      }
+      .header{
+          display:block;
+          margin-left: 40%;
+      }
+      .dropdowns{
+          display:flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+      .dropdown{
+          margin-right:1%;
+      }
+      .dropdownBtn{
+         margin:0px;
+      }
+      .headerRight{
+          display: flex;
+          justify-content: center;
+      }
+      .switch{
+          margin-left:7%;
+      }
+      .statement{
+          text-align: center;
+      }
+      .middleSection{
+          margin-left:20%;
+      }
+      .fiveDivs > div{
+          margin-left: 3%;
+      }
+      .val{
+        font-size: 18px;
+    }
+    .sub{
+        font-size: 9px;
+    }
+    .statement{
+        font-size: 15px;
+    }
+    .priceVal{
+        font-size: 18px;
+        text-align: center;
+    }
+    .tableHead{
+        font-size: 15px;
+    }
+  }

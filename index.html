@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <title>Hodinfo</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <div class="header">
+        <div class="first">
+            <img src="https://hodlinfo.com/static/media/HODLINFO.8f78fc06.png" class="logo">
+            <p class="powered">Powered By <span class="finstreet">Finstreet</span></p>
+        </div>
+        <div class="second">
+            <div class="dropdowns">
+                <div class="dropdown">
+                    <button class="btn dropdownBtn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        INR
+                    </button>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdownBtn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        BTC
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">ETH</a></li>
+                        <li><a class="dropdown-item" href="#">USDT</a></li>
+                        <li><a class="dropdown-item" href="#">XRP</a></li>
+                        <li><a class="dropdown-item" href="#">TRX</a></li>
+                    </ul>
+                </div>
+                <button class="btn dropdownBtn buy" type="button" aria-expanded="false">
+                    BUYBTC
+                </button>
+            </div>
+        </div>
+        <div class="third">
+            <div class="headerRight">
+                <!-- <div class="circle right"> </div> -->
+                <div class="telegram right">
+                    <button type="button" class="btn btnTelegram"><i class="bi bi-telegram"></i> Connect Telegram</button>
+                </div>
+                <div class="theme">
+                    <div class="form-check form-switch switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middleSection">
+        <p class="statement">Best Price To Trade</p>
+        <div class="fiveDivs">
+            <div class="mins pad">
+                <div class="minsVal val">
+                    0.56 %
+                </div>
+                <div class="subMins sub">
+                    5 Mins
+                </div>
+            </div>
+            <div class="hrs pad">
+                <div class="hrsVal val">
+                    1.32 %
+                </div>
+                <div class="subHrs sub">
+                    1 Hour
+                </div>
+            </div>
+            <div class="price">
+                <div class="priceVal">
+                    &#x20b9; 33,26,572
+                </div>
+                <div class="subPrice sub">
+                    Average BTC/INR net price including commission
+                </div>
+            </div>
+            <div class="day pad">
+                <div class="dayVal val">
+                    1.32 %
+                </div>
+                <div class="subDay sub">
+                    1 Day
+                </div>
+            </div>
+            <div class="days pad">
+                <div class="daysVal val">
+                    1.32 %
+                </div>
+                <div class="subDays sub">
+                    7 Days
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tableSection">
+        <table id="table" class="table table-borderless table-responsive">
+            <thead>
+              <tr>
+                <th class="tableHead" scope="col">#</th>
+                <th class="tableHead" scope="col">Name</th>
+                <th class="tableHead" scope="col">Last Traded Price</th>
+                <th class="tableHead" scope="col">Buy / Sell Price</th>
+                <th class="tableHead" scope="col">Difference</th>
+                <th class="tableHead" scope="col">Savings</th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+          </table>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
