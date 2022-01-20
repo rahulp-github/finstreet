@@ -1,6 +1,6 @@
 const tbody = document.getElementById('tbody');
 async function getData(){
-    let data = await fetch("http://localhost:3000/api",{
+    let data = await fetch("https://finstreet-assignment/api",{
         method:"GET",
         headers:{
             "Content-type":"application/json"
